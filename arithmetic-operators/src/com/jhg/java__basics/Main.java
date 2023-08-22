@@ -20,7 +20,7 @@ public class Main {
 
 	result = a/b;
 
-	System.out.println("the sum is " + result);
+	System.out.println("the sum is " + df.format(result));
 	System.out.printf("the sum is %.2f", result);
 
     }
